@@ -3,30 +3,32 @@
 <head>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <script src='https://cdn.firebase.com/js/client/2.2.1/firebase.js'></script>
 </head>
     <body>
+        <script>var myDataRef = new Firebase('https://hw44z0yhf3e.firebaseio-demo.com/');</script>
     <header></header>
         <div class="container">
         <form class="form">
             <div class="form-group">
                  <label >First name</label>
-                <input type="text" name="fname" class="form-control" placeholder="Abby">
+                <input type="text" id="fname" class="form-control" placeholder="Abby">
             </div> 
         <div class="form-group" class="form-inline">
               <label >Surname</label>
-               <input type="text" name="sname" class="form-control" placeholder="kama">
+               <input type="text" id="sname" class="form-control" placeholder="kama">
             </div>
             <div class="form-group">
                    <label>Tel</label>
-                    <input type="tel" name="tel" class="form-control" placeholder="07">
+                    <input type="tel" id="tel" class="form-control" placeholder="07">
             </div>
             <div class="form-group">
                     <label>Email</label>
-                   <input type="email" name="email" class="form-control" placeholder="abc@gmail.com">
+                   <input type="email" id="email" class="form-control" placeholder="abc@gmail.com">
             </div>
             <div class="form-group butt">
-                    <input type="reset"name="reset" class="btn btn-primary red">
-                    <input type="submit" name="submit" class="btn btn-primary ">
+                    <input type="reset" id="reset" class="btn btn-primary red">
+                    <input type="submit" id="submit" class="btn btn-primary ">
             
             </div>
         </form>
