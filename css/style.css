@@ -4,7 +4,24 @@ width: 300px;
 .form-group{
         display: inline-block;                                
         width: 4000px;
+    padding: 10px;
 }
 .form{
 display: inline-block;
+}
+.butt{
+padding: 10px;
+}
+.btn-primary{
+width: 100px;
+background-color: royalblue;
+margin: 30px;
+
+}
+.red{
+    background-color: rgb(205,1,2);
+float: left;
+}
+.form{
+    padding: 70px;
 }
